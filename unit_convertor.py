@@ -149,6 +149,5 @@ if value !=0:
       answer = convert_volume(value, conversion_units, conversion_unit)
       st.success(f"Your answer: {answer:.4f} {conversion_unit}")  
     
-    if st.button("Convert"):
-      conversion_units, conversion_unit = conversion_unit, conversion_units
+    
 
